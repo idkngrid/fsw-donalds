@@ -75,7 +75,7 @@ const RestaurantCategories = ({ restaurant }: RestaurantCategoriesProps) => {
         </div>
         <ScrollBar orientation="horizontal" />
       </ScrollArea>
-      <h3 className="px-5 font-semibold py-4">{selectedCategory.name}</h3>
+      <h3 className="px-5 py-4 font-semibold">{selectedCategory.name}</h3>
       <Products products={selectedCategory.products} />
     </div>
   );
